@@ -1,3 +1,13 @@
+/* Hero section CSS */
+.hero_section_background {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(75%) contrast(125%);
+  height: 37rem;
+}
+
 .hero_carousel {
   height: 37rem;
 }
@@ -8,25 +18,91 @@
   margin-top: 16rem;
   background-color: rgb(112, 113, 113) !important;
 }
+.hero_section_text_div {
+  position: absolute;
+  top: 11rem;
+  padding: 0rem 15rem;
+}
 .hero_section_text {
   font-size: 4rem;
   width: 48rem;
   text-align: center;
   letter-spacing: 2px;
   line-height: 60px;
+  color: #fff;
+  font-weight: bold;
 }
 .fa-laptop {
-  color: rgba(222, 222, 17, 0.917);
+  color: #ffc107;
   font-size: 2rem;
   padding: 1rem;
 }
 .fa-users {
-  color: rgba(222, 222, 17, 0.917);
+  color: #ffc107;
   font-size: 2rem;
   padding: 1rem;
 }
 .fa-book {
-  color: rgba(222, 222, 17, 0.917);
+  color: #ffc107;
   font-size: 2rem;
   padding: 1rem;
+}
+.hero_section_btn_div {
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_section_btn {
+  background: #ffc107;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #043159;
+  cursor: pointer;
+}
+
+/* Section 2 CSS (cards) */
+
+.card_section_main_div {
+  display: flex;
+  gap: 1rem;
+  padding: 0rem 4rem;
+  background: transparent;
+  width: 100%;
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+}
+.card_section_sub_div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  filter: drop-shadow(0px 6px 8px #e8e3e3);
+}
+.card_section_heading {
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025rem;
+}
+.card_section_paragraph {
+  text-align: center;
+  color: #767879;
+}
+.card_section_btn {
+  background: #ffc107;
+  padding: 10px 28px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #043159;
+  cursor: pointer;
+  margin: 0px 0;
 }

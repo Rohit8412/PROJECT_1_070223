@@ -21,19 +21,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            boxShadow: {
-              "3xl": "0px 0px 15px 4px #d1d4de",
-            },
-          },
-        },
-      };
-    </script>
-
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="index.css" type="text/css" />
 
     <title>Mastery a Education Category</title>
@@ -50,99 +38,75 @@
           <!-- Carousel item no. 1 -->
           <div class="carousel-item">
             <div
-              class="flex flex-col justify-center items-center bg-cover bg-no-repeat bg-center brightness-75 contrast-125 relative"
-              style="
-                background-image: url(images/hero_carousel1.jpg);
-                height: 37rem;
-              "
+              class="hero_section_background"
+              style="background-image: url(images/hero_carousel1.jpg)"
             ></div>
             <!-- hero-section-text -->
-            <div class="absolute top-44 left-72">
-              <h1 class="hero_section_text text-white font-bold">
+            <div class="hero_section_text_div">
+              <h1 class="hero_section_text">
                 Explore The World Of Our Graduates
               </h1>
               <!-- Hero-section-button  -->
-              <div class="py-5 flex justify-center items-center">
-                <span
-                  class="bg-yellow-500 rounded-md px-8 py-3 text-sm font-semibold text-blue-900 hover:bg-blue-900 hover:text-yellow-500 cursor-pointer"
-                  >Read More</span
-                >
+              <div class="hero_section_btn_div">
+                <span class="hero_section_btn">Read More</span>
               </div>
             </div>
           </div>
           <!-- Carousel item no. 2 -->
           <div class="carousel-item">
             <div
-              class="flex flex-col justify-center items-center bg-cover bg-no-repeat bg-center brightness-75 contrast-125 relative"
-              style="
-                background-image: url(images/hero_carousel2.jpg);
-                height: 37rem;
-              "
+              class="hero_section_background"
+              style="background-image: url(images/hero_carousel2.jpg)"
             ></div>
             <!-- hero-section-text -->
-            <div class="absolute top-44 left-72">
-              <h1 class="hero_section_text text-white font-bold">
+            <div class="hero_section_text_div">
+              <h1 class="hero_section_text">
                 Better Education For A Better World
               </h1>
               <!-- Hero-section-button  -->
-              <div class="py-5 flex justify-center items-center">
-                <span
-                  class="bg-yellow-500 rounded-md px-8 py-3 text-sm font-semibold text-blue-900 hover:bg-blue-900 hover:text-yellow-500 cursor-pointer"
-                  >Read More</span
-                >
+              <div class="hero_section_btn_div">
+                <span class="hero_section_btn">Read More</span>
               </div>
             </div>
           </div>
           <!-- Carousel item no. 3 -->
           <div class="carousel-item">
             <div
-              class="flex flex-col justify-center items-center bg-cover bg-no-repeat bg-center brightness-75 contrast-125 relative"
-              style="
-                background-image: url(images/hero_carousel3.jpg);
-                height: 37rem;
-              "
+              class="hero_section_background"
+              style="background-image: url(images/hero_carousel3.jpg)"
             ></div>
             <!-- hero-section-text -->
-            <div class="absolute top-44 left-72">
-              <h1 class="hero_section_text text-white font-bold">
+            <div class="hero_section_text_div">
+              <h1 class="hero_section_text">
                 Exceptional People, Exceptional Care
               </h1>
               <!-- Hero-section-button  -->
-              <div class="py-5 flex justify-center items-center">
-                <span
-                  class="bg-yellow-500 rounded-md px-8 py-3 text-sm font-semibold text-blue-900 hover:bg-blue-900 hover:text-yellow-500 cursor-pointer"
-                  >Read More</span
-                >
+              <div class="hero_section_btn_div">
+                <span class="hero_section_btn">Read More</span>
               </div>
             </div>
           </div>
           <!-- Carousel item no. 4 -->
           <div class="carousel-item active">
             <div
-              class="flex flex-col justify-center items-center bg-cover bg-no-repeat bg-center brightness-75 contrast-125 relative"
-              style="
-                background-image: url(images/hero_carousel4.jpg);
-                height: 37rem;
-              "
+              class="hero_section_background"
+              style="background-image: url(images/hero_carousel4.jpg)"
             ></div>
             <!-- hero-section-text -->
-            <div class="absolute top-44 left-72">
-              <h1 class="hero_section_text text-white font-bold">
+            <div class="hero_section_text_div">
+              <h1 class="hero_section_text">
                 Better Education For A Better World
               </h1>
               <!-- Hero-section-button  -->
-              <div class="py-5 flex justify-center items-center">
-                <span
-                  class="bg-yellow-500 rounded-md px-8 py-3 text-sm font-semibold text-blue-900 hover:bg-blue-900 hover:text-yellow-500 cursor-pointer"
-                  >Read More</span
-                >
+              <div class="hero_section_btn_div">
+                <span class="hero_section_btn">Read More</span>
               </div>
             </div>
           </div>
         </div>
         <!-- Hero carousel Previous and next button icons -->
         <button
-          class="carousel-control-prev hero_navigation_btn bg-gray-500"
+          class="carousel-control-prev hero_navigation_btn"
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="prev"
@@ -151,7 +115,7 @@
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next hero_navigation_btn bg-gray-500"
+          class="carousel-control-next hero_navigation_btn"
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="next"
@@ -163,53 +127,36 @@
     </section>
 
     <section>
-      <div
-        class="flex inline-block gap-3 px-16 bg-transparent w-full -mt-16 mb-16"
-      >
-        <div
-          class="flex flex-col gap-3 justify-center items-center w-1/3 bg-white p-8 rounded-md drop-shadow-xl shadow-gray-300"
-        >
+      <div class="card_section_main_div">
+        <div class="card_section_sub_div1">
           <span><i class="fa fa-laptop"></i></span>
-          <h1 class="font-bold text-xl tracking-wide">Learn Courses Online</h1>
-          <p class="text-center text-gray-500">
+          <h1 class="card_section_heading">Learn Courses Online</h1>
+          <p class="card_section_paragraph">
             Auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit
             amet nibh vulputate cursus a sit amet
           </p>
 
-          <span
-            class="bg-yellow-400 rounded-md px-6 py-2 tracking-wide text-sm font-bold text-blue-900 hover:bg-blue-900 hover:text-yellow-500 cursor-pointer"
-            >Read More</span
-          >
+          <span class="card_section_btn">Read More</span>
         </div>
-        <div
-          class="flex flex-col gap-3 justify-center items-center w-1/3 bg-white p-8 rounded-md drop-shadow-xl shadow-gray-300"
-        >
+        <div class="card_section_sub_div1">
           <span><i class="fa fa-users"></i></span>
-          <h1 class="font-bold text-xl">Highly Qualified Teachers</h1>
-          <p class="text-center text-gray-500">
+          <h1 class="card_section_heading">Highly Qualified Teachers</h1>
+          <p class="card_section_paragraph">
             Auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit
             amet nibh vulputate cursus a sit amet
           </p>
 
-          <span
-            class="bg-yellow-400 rounded-md px-6 py-2 tracking-wide text-sm font-bold text-blue-900 hover:bg-blue-900 hover:text-yellow-500 cursor-pointer"
-            >Read More</span
-          >
+          <span class="card_section_btn">Read More</span>
         </div>
-        <div
-          class="flex flex-col gap-3 justify-center items-center w-1/3 bg-white p-8 rounded-md drop-shadow-xl shadow-gray-300"
-        >
+        <div class="card_section_sub_div1">
           <span><i class="fa fa-book"></i></span>
-          <h1 class="font-bold text-xl">Book Library & Stores</h1>
-          <p class="text-center text-gray-500">
+          <h1 class="card_section_heading">Book Library & Stores</h1>
+          <p class="card_section_paragraph">
             Auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit
             amet nibh vulputate cursus a sit amet
           </p>
 
-          <span
-            class="bg-yellow-400 rounded-md px-6 py-2 tracking-wide text-sm font-bold text-blue-900 hover:bg-blue-900 hover:text-yellow-500 cursor-pointer"
-            >Read More</span
-          >
+          <span class="card_section_btn">Read More</span>
         </div>
       </div>
     </section>
