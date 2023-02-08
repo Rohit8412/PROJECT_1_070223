@@ -1,0 +1,32 @@
+.hero_carousel {
+  height: 37rem;
+}
+.hero_navigation_btn {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 2rem;
+  margin-top: 16rem;
+  background-color: rgb(112, 113, 113) !important;
+}
+.hero_section_text {
+  font-size: 4rem;
+  width: 48rem;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 60px;
+}
+.fa-laptop {
+  color: rgba(222, 222, 17, 0.917);
+  font-size: 2rem;
+  padding: 1rem;
+}
+.fa-users {
+  color: rgba(222, 222, 17, 0.917);
+  font-size: 2rem;
+  padding: 1rem;
+}
+.fa-book {
+  color: rgba(222, 222, 17, 0.917);
+  font-size: 2rem;
+  padding: 1rem;
+}
