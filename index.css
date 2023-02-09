@@ -27,7 +27,7 @@ a {
   position: absolute;
   top: 11rem;
   width: 100%;
-  padding: 0rem 11rem;
+  padding: 0rem 12rem;
 }
 .hero_section_text {
   font-size: 4rem;
@@ -127,12 +127,12 @@ span.card_section_btn:hover {
 
   .hero_section_text_div {
     width: 97%;
-    padding: 0rem 6rem;
+    padding: 0rem 7.5rem;
   }
   .hero_section_text {
     font-size: 5vw;
     text-align: center;
-    letter-spacing: 1vh;
+    letter-spacing: 0.75vh;
   }
   .hero_section_btn {
     font-size: 2vw;
@@ -145,12 +145,12 @@ span.card_section_btn:hover {
   }
   .hero_section_text_div {
     width: 94%;
-    padding: 0rem 3rem 0rem 5rem;
+    padding: 0rem 5rem 0rem 5rem;
   }
   .hero_section_text {
     font-size: 5vw;
     text-align: center;
-    letter-spacing: 1vh;
+    letter-spacing: 0.5vh;
   }
   .hero_section_btn {
     font-size: 2vw;
@@ -170,11 +170,12 @@ span.card_section_btn:hover {
   }
   .hero_section_text_div {
     width: 100%;
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 0rem 4.5rem 0rem 4rem;
   }
   .hero_section_text {
     font-size: 5vw;
     text-align: center;
+    letter-spacing: 0.25vh;
   }
   .hero_section_btn {
     font-size: 2vw;
