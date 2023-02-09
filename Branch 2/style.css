@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.about{
+    background-color: #FFFFFF;
+}
+.about-int{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+.about-upper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-upper h1{
+    color: #1A1D2D;
+    font-size: 2.2rem;
+    line-height: 44px;
+    font-weight: 600;
+}
+.about-upper p{
+    color: #585858;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.about-upper ul li{
+    list-style: none;
+    color: #585858;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.about-upper ul i{
+    color: #FDC800;
+    font-weight: 900;
+    padding-right: 10px;
+}
+
+.about-down img{
+    width: 507px;
+    height: 348px;
+    border-radius: 5px;
+}
+
+.addmission{
+    background-image: linear-gradient(rgba(0, 33, 71, 0.8), rgba(0, 33, 71, 0.8)), url(./assets/4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.about-addmission{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 70px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addmission-details h3{
+    font-size: 2.2rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.addmission-details h4{
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.addmission-details p{
+    line-height: 26px;
+    font-size: 0.95rem;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.btn{
+    background-color: #FDC800;
+    color: #002147;
+    cursor: pointer;
+    border: 2px solid #FDC800;
+    padding: 10px 30px;
+    width: fit-content;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.2s ease-in;
+}
+
+.btn:hover{
+    color: #FDC800;
+    background-color: #002147;
+    border: 2px solid #002147;
+}
+
+/* Media Queries */
+
+@media (min-width: 992px) and (max-width: 1250px) {
+ 
+    .about-upper{
+        gap: 17px;
+    }
+    .about-upper h1{
+        font-size: 34px;
+    }
+    .about-upper p{
+        font-size: 13px;
+    }
+    .about-upper ul li{
+        font-size: 14px;
+    }
+    .about-upper ul i{
+        padding-right: 8px;
+    } 
+    .about-down img{
+        width: 460px;
+        height: 300px;
+    }
+    .addmission-details h3{
+        font-size: 34px;
+    }
+    
+    .addmission-details h4{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    .about-int{
+        margin: auto;
+        width: 62%;
+        flex-direction: column;
+        gap: 38px;
+    }
+    .about-upper{
+        gap: 13px;
+    }
+    .about-down img{
+        width: 100%;
+        height: 380px;
+    } 
+    .addmission{
+        height: 350px;
+    }
+    .about-addmission{
+     padding: 102px 0;
+    }
+    .addmission-details p{
+        font-size: 0.87rem;
+        font-weight: 700s;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .about-int{
+        margin: auto;
+        width: 75%;
+        flex-direction: column;
+        gap: 38px;
+    }
+    .about-upper{
+        gap: 13px;
+    }
+    .about-down img{
+        width: 100%;
+        height: 340px;
+    } 
+    .about-addmission{
+        width: 74%;
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+        padding: 102px 0;
+        align-items: normal;
+    }
+    .addmission{
+        height: 405px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-int{
+        margin: auto;
+        width: 95%;
+        flex-direction: column;
+        gap: 38px;
+    }
+    .about-upper{
+        gap: 13px;
+    }
+    .about-upper h1{
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .about-upper p{
+      font-size: 0.6rem;
+      font-weight: 700;
+      line-height: 20px;
+    }
+    .about-upper ul li{
+        font-size: 0.68rem;
+    }
+    .about-upper ul i{
+        color: #FDC800;
+    }
+    .about-down img{
+        width: 100%;
+        height: 210px;
+    } 
+    .addmission{
+        height: 405px;
+        background-position: center;
+        background-size: cover;
+    }
+    .about-addmission{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 65px 0;
+        align-items: normal;
+    }
+
+    .addmission-details h3{
+        font-size: 1.4rem;
+    }
+    .addmission-details h4{
+        font-size: 1rem;
+    }
+    .addmission-details p{
+        font-size: 0.6rem;
+        line-height: 22px;
+        font-weight: 600;
+    }
+}
